@@ -1,5 +1,5 @@
 function pickRandomItems() {
-    var items = ["🍎", "🍌", "🍊", "🍇", "🥭", "🍍", "🍓"];
+    var items = ["Apple", "Banana", "Orange", "Grape", "Mango", "Pineapple", "Strawberry"];
     var randomItems = [];
 
     // Pick 3 random items
