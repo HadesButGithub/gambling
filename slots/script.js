@@ -30,10 +30,10 @@ function pickRandomItems() {
     }
   }
 
-// function that stops the audio
-function stopAudio(audioFile) {
-    var audio = new Audio(audioFile);
-    audio.pause();
+// function that stops all audio playing on the page
+function stopAllAudio() {
+    var sounds = document.getElementsByTagName('audio');
+    for (i=0; i<sounds.length; i++) sounds[i].pause();
 }
 
   function playAudio(audioFile) {
