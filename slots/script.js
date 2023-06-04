@@ -30,6 +30,12 @@ function pickRandomItems() {
     }
   }
 
+// function that stops the audio
+function stopAudio(audioFile) {
+    var audio = new Audio(audioFile);
+    audio.pause();
+}
+
   function playAudio(audioFile) {
     var audio = new Audio(audioFile);
     audio.play();
